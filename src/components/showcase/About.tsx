@@ -39,65 +39,73 @@ const About: React.FC<AboutProps> = (props) => {
                     <img src={meNow} style={styles.aboutImage} alt="" />
                 </div>
                 <br />
-                <p>
-                    I'm currently pursuing my Bachelor of Technology in
-                    Computer Science Engineering at Graphic Era (Deemed to be)
-                    University in Dehradun, Uttarakhand. Somewhere in the
-                    first couple years of my degree, I noticed the projects I
-                    got the most out of weren't the ones with the flashiest
-                    features — they were the ones where something had to
-                    actually hold together under real conditions: a job queue
-                    that couldn't drop a task, a model that had to be right
-                    more often than it was wrong, a training loop that had to
-                    keep running unattended for hours. That's the thread that
-                    runs through most of what I build.
-                </p>
-                <br />
+               <p>
+    From a young age, I've had a curiosity about how things worked.
+    This naturally led me to become absolutely obsessed with Lego, and
+    somewhere along the way that obsession turned into a genuine love
+    for building things more broadly. I'm currently pursuing my
+    Bachelor of Technology in Computer Science Engineering at Graphic
+    Era (Deemed to be) University in Dehradun, Uttarakhand.
+</p>
+<br />
 
-                <p>
-                    That thread is easiest to see if you follow my projects in
-                    order. I started with{' '}
-                    <Link to="/projects/software">QueueX</Link>, a distributed
-                    task orchestration system — the kind of project that
-                    forces you to think in terms of failure states and
-                    retries instead of just the happy path. From there I moved
-                    into EarningsLens, fine-tuning a Longformer model on
-                    earnings call transcripts and building out the
-                    infrastructure to actually validate whether the
-                    sentiment signal meant anything against real price
-                    data. Most recently that led me to my most ambitious
-                    project yet, a reinforcement-learning derivative hedging
-                    platform — combining RL-based agents, classical
-                    quant-finance models, and a full production stack of
-                    real-time telemetry, dashboards, and orchestration behind
-                    it. Each project pushed me to take on a bit more scope
-                    than the last. A few of these are viewable on my{' '}
-                    <Link to="/projects/software">Software Projects</Link> page.
-                </p>
-                <br />
-                <p>
-                    Outside of project work, I spend a fair amount of time
-                    working through problems on LeetCode. There's a
-                    particular satisfaction in taking something messy and
-                    reducing it to a solution that's precise, testable, and
-                    a little elegant — it's a small, self-contained version
-                    of the same instinct that shows up in the bigger
-                    projects. You can find more on my rating and contest
-                    history on the{' '}
-                    <Link to="/experience">Achievements</Link> page.
-                </p>
-                <br />
-                <p>
-                    Mostly, I learn by building. I'll follow an idea — a
-                    hedging strategy, a sentiment signal, a job queue — far
-                    enough that it turns into something I can actually
-                    inspect, break, and put back together, and that's usually
-                    where the real understanding shows up. It's also why I
-                    end up moving around between systems, data, and
-                    infrastructure rather than staying in one lane; the
-                    underlying question is always some version of "what is
-                    this actually doing under the hood."
-                </p>
+<p>
+    Somewhere in the first couple years of my degree, I noticed the
+    projects I got the most out of weren't the ones with the flashiest
+    features — they were the ones where something had to actually hold
+    together under real conditions: a job queue that couldn't drop a
+    task, a model that had to be right more often than it was wrong, a
+    training loop that had to keep running unattended for hours. That's
+    the thread that runs through most of what I build.
+</p>
+<br />
+
+<p>
+    That thread is easiest to see if you follow my projects in order.
+    I started with{' '}
+    <Link to="/projects/software">QueueX</Link>, a distributed task
+    orchestration system — the kind of project that forces you to think
+    in terms of failure states and retries instead of just the happy
+    path. From there I moved into EarningsLens, fine-tuning a Longformer
+    model on earnings call transcripts and building out the
+    infrastructure to actually validate whether the sentiment signal
+    meant anything against real price data.
+</p>
+<br />
+
+<p>
+    Most recently that led me to my most ambitious project yet, a
+    reinforcement-learning derivative hedging platform — combining
+    RL-based agents, classical quant-finance models, and a full
+    production stack of real-time telemetry, dashboards, and
+    orchestration behind it. Each project pushed me to take on a bit
+    more scope than the last. A few of these are viewable on my{' '}
+    <Link to="/projects/software">Software Projects</Link> page.
+</p>
+<br />
+
+<p>
+    Outside of project work, I spend a fair amount of time working
+    through problems on LeetCode. There's a particular satisfaction in
+    taking something messy and reducing it to a solution that's
+    precise, testable, and a little elegant — it's a small,
+    self-contained version of the same instinct that shows up in the
+    bigger projects. You can find more on my rating and contest history
+    on the{' '}
+    <Link to="/experience">Achievements</Link> page.
+</p>
+<br />
+
+<p>
+    Mostly, I learn by building. I'll follow an idea — a hedging
+    strategy, a sentiment signal, a job queue — far enough that it
+    turns into something I can actually inspect, break, and put back
+    together, and that's usually where the real understanding shows up.
+    It's also why I end up moving around between systems, data, and
+    infrastructure rather than staying in one lane; the underlying
+    question is always some version of "what is this actually doing
+    under the hood."
+</p>
                 <br />
                 <div className="text-block">
                     <h3>Education</h3>
