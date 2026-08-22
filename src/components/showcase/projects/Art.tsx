@@ -44,12 +44,12 @@ const ArtProjects: React.FC<ArtProjectsProps> = (props) => {
                     </p>
                 </div>
                 <p>
-                    I really started enjoying the work I was doing, and felt I
-                    was improving a lot. Around 2017, I started to upload videos
-                    of my work flow and animation process to YouTube just for
-                    fun. I was really surprised however when my first video took
-                    off and got a few thousand views!
-                </p>
+    I really started enjoying the work I was doing and felt myself
+    improving with every new animation. As I continued experimenting
+    with different styles, movement, and frame-by-frame techniques,
+    animation became something I genuinely enjoyed creating and
+    learning more about.
+</p>
                 <br />
                 <p>
                     This page is currently a work in progress. I've recently
