@@ -195,16 +195,6 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
                 saver to keep the drums controlled but still hard hitting.
             </p>
             <br />
-            <h2>The Future of my music</h2>
-            <br />
-            <p>
-                I love to make music and will continue to make music as long as
-                I can. I think soon enough I will be releasing music publicly
-                since I feel like my personal style has slowly developed into
-                something I am proud of over these last few years. I also want
-                to one day make an album, but that is a long ways away.
-            </p>
-            <br />
             <p>
                 I am aware this section of my portfolio is rather short, but
                 it's because I am very selective with what I want to show off to
