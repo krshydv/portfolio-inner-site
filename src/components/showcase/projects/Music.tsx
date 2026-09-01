@@ -23,19 +23,20 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <div className="text-block">
                 <p>
-                    Music has been a passion of mine for my whole life. When I
-                    was 15 years old, I downloaded FL Studio and started to
-                    produce my own music. I found a wonderful community on
-                    reddit called r/edmproduction and in 2016 created the now
-                    popular discord server EDM Production with over 14k members.
-                </p>
+    Music has been a passion of mine for my whole life. I primarily
+    produced music using FL Studio, which helped me develop a deep
+    interest in electronic music and music production. I also became
+    part of the wonderful community on Reddit called r/edmproduction,
+    where I discovered new EDM artists, explored different styles of
+    electronic music, and learned from other passionate producers.
+</p>
                 <br />
                 <p>
                     I don't release the music that I make publicly as I not only
                     find it difficult to finish songs, but also it's not a
                     priority of mine since I produce mostly because I enjoy the
                     process of learning and creating. However if I am going to
-                    dedicate a whole page of my portfolio to my music, you bet
+                    dedicate a whole page of my portfolio to music, you bet
                     I'll have some examples to showoff.
                 </p>
                 <br />
@@ -197,9 +198,7 @@ const MusicProjects: React.FC<MusicProjectsProps> = (props) => {
             <br />
             <p>
                 I am aware this section of my portfolio is rather short, but
-                it's because I am very selective with what I want to show off to
-                the world. I've been producing for over 6 years and have made
-                hundreds maybe even a thousand tracks/loops in that time. I only
+                it's because I am very selective with what I want to show. I only
                 recently have been feeling very content with the stuff I've made
                 and I'm very excited to see what I can do for the future. Thanks
                 for listening I hope you enjoyed!
